@@ -1,0 +1,37 @@
+{
+  "name": "webpack_restaurant",
+  "version": "1.0.0",
+  "description": "create site from figma and pre-css",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oltkachuk/webpack_restaurant.git"
+  },
+  "keywords": [
+    "restaurent",
+    "food",
+    "eat",
+    "hungry"
+  ],
+  "author": "Oleh Tkachuk <olezuktkacuk22@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oltkachuk/webpack_restaurant/issues"
+  },
+  "homepage": "https://github.com/oltkachuk/webpack_restaurant#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -1,0 +1,9 @@
+body {
+    color: black;
+}
+.logo{
+    background-image: url('../image/vector-header.png');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
