@@ -2,3 +2,7 @@
     font-family: 'Open';
     src: url('../founts/OpenSans-Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Banny';
+    src: url('../founts/Banny-BoldRound.ttf') format('truetype');
+}
