@@ -34,7 +34,24 @@ module.exports = {
             ],
           },
           {
+            test: /\.scss$/,
+            use: [
+                {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: {},
+                },
+                'css-loader',
+                'sass-loader'
+            ],
+          },
+          {
             test: /\.(jpg|svg|png)$/,
+            use: [
+                'file-loader'
+            ],
+          },
+          {
+            test: /\.ttf$/,
             use: [
                 'file-loader'
             ],

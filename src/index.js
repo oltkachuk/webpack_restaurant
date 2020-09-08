@@ -1,2 +1,2 @@
 console.log('hello webpack');
-import './style/main.css';
+import './style/main.scss';
